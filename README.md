@@ -38,3 +38,5 @@ docker build -t juliosanches/desafio-go:prod2 . -f Dockerfile.prod2
 #juliosanches/desafio-go        prod2     9bc8c7564c40   15 seconds ago   1.36MB
 
 ```
+####
+DockerHub: https://hub.docker.com/repository/docker/juliosanches/desafio-go
