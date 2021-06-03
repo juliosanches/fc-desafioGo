@@ -1,0 +1,10 @@
+FROM golang:1.16 AS builder
+
+WORKDIR /go/src/app
+COPY ola.go .
+
+FROM golang:1.16-alpine
+WORKDIR /go/src/app
+COPY --from=builder /go/src/app .
+
+CMD ["go", "run", "ola.go"]
