@@ -1,4 +1,4 @@
-# Desafio Go FullCycle, imagem minima.
+# Desafio Go FullCycle, imagem mínima.
 ## Criar uma imagem Docker com Go de um helloword "FullCycle Rocks!" onde essa imagem tenha menos de 2MB
 
 ### Anotações dos teste:
